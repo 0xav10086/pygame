@@ -69,6 +69,17 @@ left_image = Image.fromarray(left_part)
 middle_image = Image.fromarray(middle_part)
 right_image = Image.fromarray(right_part)
 
+
+# 使用cv2.imshow显示三张图片
+cv2.imshow('Left Part', left_part)
+cv2.imshow('Middle Part', middle_part)
+cv2.imshow('Right Part', right_part)
+
+# 等待按键后关闭窗口
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
 # 初始化预测结果字符串
 predicted_numbers = ''
 
