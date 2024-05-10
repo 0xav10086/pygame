@@ -9,7 +9,7 @@ import pyautogui
 import time
 
 # 获取游戏图标位置
-location = pyautogui.locateCenterOnScreen('/home/oxav10086/PycharmProjects/pygame/1999/img/Software _charts.png')
+location = pyautogui.locateCenterOnScreen('/home/oxav10086/PycharmProjects/pygame/1999/dataset/Software _charts.png')
 
 # 模拟鼠标打开程序
 pyautogui.moveTo(location)
@@ -24,7 +24,7 @@ print("已模拟按下 F7 键！")
 time.sleep(30)
 # 判断游戏是否启动
 '''
-start = pyautogui.locateCenterOnScreen('/home/oxav10086/PycharmProjects/pygame/1999/img/start.png')
+start = pyautogui.locateCenterOnScreen('/home/oxav10086/PycharmProjects/pygame/1999/dataset/start.png')
 pyautogui.moveTo(start)
 pyautogui.click()
 print(start)
@@ -35,14 +35,14 @@ pyautogui.click()
 time.sleep(20)
 
 # 入场
-enter = pyautogui.locateCenterOnScreen('/home/oxav10086/PycharmProjects/pygame/1999/img/enter.png')
+enter = pyautogui.locateCenterOnScreen('/home/oxav10086/PycharmProjects/pygame/1999/dataset/enter.png')
 pyautogui.moveTo(enter)
 pyautogui.click()
 time.sleep(5)
 print(enter)
 
 # 进入资源
-# resource = pyautogui.locateCenterOnScreen('/home/oxav10086/PycharmProjects/pygame/1999/img/enter.png')
+# resource = pyautogui.locateCenterOnScreen('/home/oxav10086/PycharmProjects/pygame/1999/dataset/enter.png')
 # pyautogui.moveTo(resource)
 pyautogui.moveTo(700, 960)
 pyautogui.click()
@@ -50,11 +50,11 @@ time.sleep(5)
 
 # 尘埃运动
 '''
-dust = pyautogui.locateCenterOnScreen('/home/oxav10086/PycharmProjects/pygame/1999/img/dust.png')
+dust = pyautogui.locateCenterOnScreen('/home/oxav10086/PycharmProjects/pygame/1999/dataset/dust.png')
 pyautogui.moveTo(dust)
 pyautogui.click()
 time.sleep(5)
-dust6 = pyautogui.locateCenterOnScreen('/home/oxav10086/PycharmProjects/pygame/1999/img/Dust_movement.png')
+dust6 = pyautogui.locateCenterOnScreen('/home/oxav10086/PycharmProjects/pygame/1999/dataset/Dust_movement.png')
 pyautogui.moveTo(dust6)
 pyautogui.click()
 '''

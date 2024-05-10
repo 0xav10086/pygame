@@ -30,7 +30,7 @@ def find_and_click(ac_img):
         print('尝试强制打开')
 
 
-find_and_click('./img/activity.png')
+find_and_click('./dataset/activity.png')
 
 time.sleep(3)
 

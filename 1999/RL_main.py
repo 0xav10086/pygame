@@ -15,7 +15,7 @@ def cv_show(name, image):
 def activity(img):
     # 获取图片大小
     height, width = img.shape[:2]
-    # cv_show('original', img)
+    # cv_show('original', dataset)
     # 设置裁剪区域
     x = int(round(60 / 1920 * width))
     y = int(round(55 / 1080 * height))

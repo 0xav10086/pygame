@@ -73,9 +73,9 @@ def birthday(image):
             print('今天没有人过生日:(')
 
 # 调用birthday函数
-birthday('./img/birthday.png')
+birthday('./dataset/birthday.png')
 # 调用getThing函数
-getThing('./img/obtained.png')
+getThing('./dataset/obtained.png')
 
 
 # 用于进入荒原
@@ -151,7 +151,7 @@ def wildegness(reward1, reward2):
         # 删除临时文件
         os.remove(screen_capture)
 
-wildegness('./img/wildegness1.png','./img/wildegness2.png')
+wildegness('./dataset/wildegness1.png','./dataset/wildegness2.png')
 
 # 用于领取荒原奖励
 def getWildegness_resource(image1, image2):
@@ -178,7 +178,7 @@ def getWildegness_resource(image1, image2):
 
 # 用于与荒原朋友互动
 def getWildegness_frends(image):
-    if getWildegness_resource('./img/weichen.png', './img/lici.png'):
+    if getWildegness_resource('./dataset/weichen.png', './dataset/lici.png'):
         try:
             img = pyautogui.locateCenterOnScreen(image, confidence=0.6)
             if img:
@@ -190,11 +190,11 @@ def getWildegness_frends(image):
         except pyautogui.ImageNotFoundException:
             print('未找到朋友的图像')
     else:
-        homeImg = './img/home.png'
+        homeImg = './dataset/home.png'
         Automation.big_back(homeImg)  # 使用big_back函数返回主页
 
 # 调用函数
-getWildegness_frends('./img/friend.png')
+getWildegness_frends('./dataset/friend.png')
 
 
 # 使用subprocess模块运行1999V1.py文件

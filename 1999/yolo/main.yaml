@@ -1,0 +1,17 @@
+# 数据集的根目录
+path: ./dataset
+
+# 训练集图片和标注文件的路径
+train: D:/PythonFiles/pygame/1999/yolo/dataset/train
+
+# 验证集图片和标注文件的路径
+val: D:/PythonFiles/pygame/1999/yolo/dataset/val
+
+# 测试集图片和标注文件的路径（如果有）
+test: D:/PythonFiles/pygame/1999/yolo/dataset/test
+
+# 类别的数量
+nc: 37
+
+# 类别的名称列表
+names: ['cost', 'eternity', 'eternity_1L', 'eternity_1R', 'eternity_2L', 'eternity_2R', 'eternity_M', 'eternity_3R', 'eternity_3L', 'W2P', 'Flife', 'Mlife', 'ezra', 'ezra_1R', 'ezra_1L', 'ezra_2R', 'ezra_2L', 'ezra_3L', 'ezra_3R', 'ezra_M','dikke','dikke_1R','dikke_1L','dikke_2L','dikke_2R','dikke_3R','dikke_3L','dikke_M','monster','isolde','isolde_1L','isolde_1R','isolde_2R','isolde_2L','isolde_3L','isolde_3R','isolde_M']
